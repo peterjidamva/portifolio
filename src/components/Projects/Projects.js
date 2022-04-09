@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import eastc from "../../Assets/Projects/eastc.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import chat from "../../Assets/Projects/chat.png";
+import web3 from "../../Assets/Projects/web3.png";
+import dex from "../../Assets/Projects/dex.png";
+import goat from "../../Assets/Projects/goat.png";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={web3}
               isBlog={false}
               title="Web3 Gallery"
               description="Amobile Applicationn that enables you to get news about blockchain and able to view different nfts also able to view your own nft by connecting your wallet."
@@ -32,7 +32,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={goat}
               isBlog={false}
               title="Goat Game"
               description="A mobile Game of A GOAT built using Flutter."
@@ -42,7 +42,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chat}
               isBlog={false}
               title="Chat APp"
               description="Mobile App that allow two users to chat each other using firebase and flutter
@@ -63,11 +63,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={dex}
               isBlog={false}
-              title="Simple React Exchange"
-              description="ERC Token on Polygon Blockchain with React Frontend that enables you to send , Buy and receive Tokens "
-              link="https://github.com/peterjidamva/Blockchain-interaction-with-react"
+              title="Bored Ape Puzzle"
+              description="A puzzle of Bored Apes made with flutter."
+              link="https://github.com/peterjidamva/nft-puzzle"
             />
           </Col>
         </Row>
