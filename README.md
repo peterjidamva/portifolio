@@ -25,3 +25,7 @@
 
 
 <img src="./src/Assets/screen/PT3.png">
+
+<h1> 
+CREDITS TO https://github.com/soumyajit4419/Portfolio
+</h1>
