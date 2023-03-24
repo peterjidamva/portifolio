@@ -44,7 +44,7 @@ function Projects() {
             <ProjectCard
               imgPath={chat}
               isBlog={false}
-              title="Chat APp"
+              title="Chat App"
               description="Mobile App that allow two users to chat each other using firebase and flutter
         ."
               link="https://github.com/peterjidamva/FlutterChatt"
@@ -56,7 +56,7 @@ function Projects() {
               imgPath={eastc}
               isBlog={false}
               title="Short Course Application"
-              description="Project for Appliying fpr shortcourses at EAST AFRICAN STATISTICAL TRAINING CENTRE."
+              description="Project for Appliying for shortcourses at EAST AFRICAN STATISTICAL TRAINING CENTRE."
               link="https://shortcourse.eastc.ac.tz/"
             />
           </Col>
@@ -65,8 +65,8 @@ function Projects() {
             <ProjectCard
               imgPath={dex}
               isBlog={false}
-              title="Bored Ape Puzzle"
-              description="A puzzle of Bored Apes made with flutter."
+              title="Nft Puzzle"
+              description="A puzzle Game of Your Favourite Nfts made with flutter."
               link="https://github.com/peterjidamva/nft-puzzle"
             />
           </Col>
