@@ -4,10 +4,13 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import eastc from "../../Assets/Projects/shortcourse.png";
 import chat from "../../Assets/Projects/chat.png";
-import web3 from "../../Assets/Projects/web3.png";
+import web3 from "../../Assets/Projects/4.png";
 import dex from "../../Assets/Projects/6.png";
-import goat from "../../Assets/Projects/goat.png";
+import goat from "../../Assets/Projects/3.png";
 import stei from "../../Assets/Projects/2.png";
+import todo from "../../Assets/Projects/5.png";
+import trims from "../../Assets/Projects/7.png";
+
 
 function Projects() {
   return (
@@ -25,8 +28,9 @@ function Projects() {
             <ProjectCard
               imgPath={eastc}
               isBlog={false}
-              title="Short Course Application"
-              description="Project for Appliying for shortcourses at EAST AFRICAN STATISTICAL TRAINING CENTRE."
+              title="Short Course Online Application"
+              description="Students can apply for short courses on the website and will be notified on their mobile phone number when they are accepted. The website is made with PHP using Yii framework.
+              ."
               link="https://shortcourse.eastc.ac.tz/"
             />
           </Col>
@@ -36,7 +40,10 @@ function Projects() {
               imgPath={dex}
               isBlog={false}
               title="Nft Puzzle"
-              description="A puzzle Game of Your Favourite Nfts made with flutter."
+              description="
+              This is a very enjoyable puzzle game. You can move the pieces by dragging them to the desired position. It may take a few minutes to get the hang of the game. Have fun!
+              This is the ultimate puzzle game for the whole family. It is simple to play but tricky to solve. There are over 50 images to solve.
+              MADE WITH FLUTTER."
               link="https://play.google.com/store/apps/details?id=app.jidamva.puzzle"
             />
           </Col>
@@ -46,8 +53,8 @@ function Projects() {
               imgPath={stei}
               isBlog={false}
               title="STEI"
-              description="A website for listing and selling real estate."
-              link="stei.co.tz"
+              description="STEI is a Tanzanian real estate platform that connects buyers and sellers of houses, frames, and land plots. It aims to make real estate more affordable and accessible by eliminating the need for agents and bureaucracy."
+              link="https://stei.co.tz/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -55,17 +62,26 @@ function Projects() {
               imgPath={web3}
               isBlog={false}
               title="Web3 Gallery"
-              description="Amobile Applicationn that enables you to get news about blockchain and able to view different nfts also able to view your own nft by connecting your wallet."
+              description="I created this open-source Flutter app to showcase NFTs and their prices using the OpenSea API. It has a user-friendly interface for browsing NFTs and connecting wallets to view and trade collections. It provides a convenient and accessible way to explore and participate in the NFT market."
               link="https://github.com/peterjidamva/Web3Gallery"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trims}
+              isBlog={false}
+              title="TRIMS Website"
+              description="Trims.ac.tz is the official website of the Tanzania Research and Innovation Management Society (TRIMS)."
+              link="https://trims.ac.tz/"
+            />
+          </Col>
+           
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={goat}
               isBlog={false}
               title="Goat Game"
-              description="A mobile Game of A GOAT built using Flutter."
+              description="I created this open source project . Goat Game is a mobile application game built using Flutter for the aim of learning and understanding flutter concepts on animations , object manipulation and layout."
               link="https://github.com/peterjidamva/GoatGame"
             />
           </Col>
@@ -75,11 +91,22 @@ function Projects() {
               imgPath={chat}
               isBlog={false}
               title="Chat App"
-              description="Mobile App that allow two users to chat each other using firebase and flutter
-        ."
+              description="I created this open source project. Chat App is a mobile application that enables users to chat with one another, built with Flutter as the frontend and Firebase as the backend."
               link="https://github.com/peterjidamva/FlutterChatt"
             />
           </Col>
+         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="Track Your tasks"
+              description="Mobile App that allow you to Write a list of tasks you want to do in a day , mark them as done when finished
+              Have a track of your accomplishments."
+              link="https://play.google.com/store/apps/details?id=com.mrogtzapptodo.todo_app&hl=en&gl=US"
+            />
+          </Col>
+
 
          
 
