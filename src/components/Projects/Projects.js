@@ -98,7 +98,7 @@ function Projects() {
          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todo}
+              imgPath={todo} 
               isBlog={false}
               title="Track Your tasks"
               description="Mobile App that allow you to Write a list of tasks you want to do in a day , mark them as done when finished
